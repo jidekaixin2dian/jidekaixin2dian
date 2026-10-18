@@ -29,7 +29,7 @@ function svg(t) {
 `;
 }
 
-mkdirSync(resolve(root, 'assets'), { recursive: true });
-writeFileSync(resolve(root, 'assets/footer.svg'), svg(themes.light), 'utf8');
-writeFileSync(resolve(root, 'assets/footer-dark.svg'), svg(themes.dark), 'utf8');
+mkdirSync(resolve(root, 'assets/marks'), { recursive: true });
+writeFileSync(resolve(root, 'assets/marks/footer.svg'), svg(themes.light), 'utf8');
+writeFileSync(resolve(root, 'assets/marks/footer-dark.svg'), svg(themes.dark), 'utf8');
 console.log('written: assets/footer.svg, assets/footer-dark.svg');

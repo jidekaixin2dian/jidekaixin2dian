@@ -6,8 +6,8 @@
 **本机先能用，再谈好用。** Windows 的性能与空间、AI 编码会话的外壳、Agent 之间的交接 —— 都是自己每天在用的东西。
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-01-dark.svg">
-  <img src="assets/section-01.svg" alt="正在做" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/section-01-dark.svg">
+  <img src="assets/marks/section-01.svg" alt="正在做" width="100%">
 </picture>
 
 - **01** · **[FPS 帧律](https://github.com/jidekaixin2dian/fps-tune)** — 系统层帧率调校台：先检测、再 A/B 实测，用这台机器的结果决定哪项优化值得留。  
@@ -26,8 +26,8 @@
   <sub>└ TypeScript · DSH 插件 · alpha</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-02-dark.svg">
-  <img src="assets/section-02.svg" alt="做事的方式" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/section-02-dark.svg">
+  <img src="assets/marks/section-02.svg" alt="做事的方式" width="100%">
 </picture>
 
 > **先量，再说。** 优化有没有用，让这台机器的实测结果回答，不承诺固定的帧率提升。
@@ -47,6 +47,6 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img src="assets/footer.svg" alt="KEEP CURIOUS. KEEP BUILDING." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/footer-dark.svg">
+  <img src="assets/marks/footer.svg" alt="KEEP CURIOUS. KEEP BUILDING." width="100%">
 </picture>

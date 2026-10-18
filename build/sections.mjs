@@ -38,9 +38,9 @@ function svg(t, { title, label, chars }) {
 `;
 }
 
-mkdirSync(resolve(root, 'assets'), { recursive: true });
+mkdirSync(resolve(root, 'assets/marks'), { recursive: true });
 for (const s of sections) {
-  writeFileSync(resolve(root, `assets/${s.file}.svg`), svg(themes.light, s), 'utf8');
-  writeFileSync(resolve(root, `assets/${s.file}-dark.svg`), svg(themes.dark, s), 'utf8');
+  writeFileSync(resolve(root, `assets/marks/${s.file}.svg`), svg(themes.light, s), 'utf8');
+  writeFileSync(resolve(root, `assets/marks/${s.file}-dark.svg`), svg(themes.dark, s), 'utf8');
 }
 console.log('written: section-01 / section-02 (light + dark)');

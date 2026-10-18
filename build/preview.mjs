@@ -78,7 +78,7 @@ function page(theme, html) {
 // GitHub 的 <picture> 依赖深色偏好；本地预览直接按主题改写图片源。
 for (const theme of ['light', 'dark']) {
   const html = theme === 'dark'
-    ? body.replace(/assets\/([a-z0-9]+(?:-[0-9]+)?)\.svg/g, 'assets/$1-dark.svg')
+    ? body.replace(/assets\/((?:[a-z0-9]+\/)*[a-z0-9]+(?:-[0-9]+)?)\.svg/g, 'assets/$1-dark.svg')
     : body;
   // 预览页放在仓库根目录，这样 assets/ 相对路径与 GitHub 上完全一致。
   writeFileSync(resolve(root, `preview-${theme}.html`), page(theme, html), 'utf8');
