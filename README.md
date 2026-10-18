@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero.svg" alt="记得开心一点 · 把想法做成有用的东西" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/poster/hero-dark.svg">
+  <img src="assets/poster/hero-light.svg" alt="记得开心一点 · 把想法做成有用的东西" width="100%">
 </picture>
 
 **本机先能用，再谈好用。** Windows 的性能与空间、AI 编码会话的外壳、Agent 之间的交接 —— 都是自己每天在用的东西。

@@ -50,10 +50,10 @@
     <text x="760" y="125" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#a2a69a">SNAPSHOT</text>
     <line x1="742" y1="148" x2="1096" y2="148" stroke="#f3f4ed" stroke-opacity="0.15" stroke-width="1"/>
     <text x="742" y="176" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#a2a69a">公开仓库</text>
-    <text x="1096" y="176" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#f3f4ed">13</text>
+    <text x="1096" y="176" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#f3f4ed">14</text>
     <line x1="742" y1="192" x2="1096" y2="192" stroke="#f3f4ed" stroke-opacity="0.15" stroke-width="1"/>
     <text x="742" y="222" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#a2a69a">原创仓库</text>
-    <text x="1096" y="222" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#f3f4ed">7</text>
+    <text x="1096" y="222" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#f3f4ed">8</text>
     <line x1="742" y1="238" x2="1096" y2="238" stroke="#f3f4ed" stroke-opacity="0.15" stroke-width="1"/>
     <text x="742" y="268" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#a2a69a">累计星标</text>
     <text x="1096" y="268" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#f3f4ed">10</text>

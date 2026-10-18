@@ -68,8 +68,8 @@ function ledger(t, rows) {
 
 function hero(t) {
   const rows = [
-    { label: '公开仓库', value: '13' },
-    { label: '原创仓库', value: '7' },
+    { label: '公开仓库', value: '14' },
+    { label: '原创仓库', value: '8' },
     { label: '累计星标', value: '10' },
     { label: '上游已合入 PR', value: '4' },
   ];
@@ -103,7 +103,7 @@ function hero(t) {
 `;
 }
 
-mkdirSync(resolve(root, 'assets'), { recursive: true });
-writeFileSync(resolve(root, 'assets/hero.svg'), hero(themes.light), 'utf8');
-writeFileSync(resolve(root, 'assets/hero-dark.svg'), hero(themes.dark), 'utf8');
-console.log('written: assets/hero.svg, assets/hero-dark.svg');
+mkdirSync(resolve(root, 'assets/poster'), { recursive: true });
+writeFileSync(resolve(root, 'assets/poster/hero-light.svg'), hero(themes.light), 'utf8');
+writeFileSync(resolve(root, 'assets/poster/hero-dark.svg'), hero(themes.dark), 'utf8');
+console.log('written: assets/hero-light.svg, assets/hero-dark.svg');

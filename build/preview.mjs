@@ -76,9 +76,15 @@ function page(theme, html) {
 }
 
 // GitHub 的 <picture> 依赖深色偏好；本地预览直接按主题改写图片源。
+// hero-light -> hero-dark，xxx -> xxx-dark，已经是 -dark 的原样保留。
+const toDarkPath = (p) => {
+  if (p.endsWith('-dark')) return p;
+  return p.includes('-light') ? p.replace('-light', '-dark') : `${p}-dark`;
+};
+
 for (const theme of ['light', 'dark']) {
   const html = theme === 'dark'
-    ? body.replace(/assets\/((?:[a-z0-9]+\/)*[a-z0-9]+(?:-[0-9]+)?)\.svg/g, 'assets/$1-dark.svg')
+    ? body.replace(/assets\/((?:[a-z0-9]+\/)*[a-z0-9-]+)\.svg/g, (_, p) => `assets/${toDarkPath(p)}.svg`)
     : body;
   // 预览页放在仓库根目录，这样 assets/ 相对路径与 GitHub 上完全一致。
   writeFileSync(resolve(root, `preview-${theme}.html`), page(theme, html), 'utf8');
