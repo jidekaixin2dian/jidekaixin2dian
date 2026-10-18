@@ -106,4 +106,4 @@ function hero(t) {
 mkdirSync(resolve(root, 'assets/poster'), { recursive: true });
 writeFileSync(resolve(root, 'assets/poster/hero-light.svg'), hero(themes.light), 'utf8');
 writeFileSync(resolve(root, 'assets/poster/hero-dark.svg'), hero(themes.dark), 'utf8');
-console.log('written: assets/hero-light.svg, assets/hero-dark.svg');
+console.log('written: assets/poster/hero-light.svg, assets/poster/hero-dark.svg');
