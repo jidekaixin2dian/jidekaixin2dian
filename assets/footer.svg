@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="KEEP CURIOUS. KEEP BUILDING.">
+  <line x1="76" y1="28" x2="1124" y2="28" stroke="#111311" stroke-opacity="0.16" stroke-width="1"/>
+  <rect x="76" y="25" width="26" height="6" rx="3" fill="#c8f663"/>
+  <text x="600" y="77" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="15" letter-spacing="6" fill="#5c5f55">KEEP CURIOUS. KEEP BUILDING.</text>
+</svg>

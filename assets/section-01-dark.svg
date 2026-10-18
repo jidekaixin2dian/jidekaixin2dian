@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80" role="img" aria-label="正在做">
+  <rect x="76" y="20" width="6" height="44" rx="3" fill="#c8f663"/>
+  <text x="104" y="56" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="34" font-weight="700" letter-spacing="1" fill="#f3f4ed">正在做</text>
+  <line x1="240" y1="45" x2="1016" y2="45" stroke="#f3f4ed" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="1124" y="50" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="12" letter-spacing="3.2" fill="#a2a69a">BUILDING</text>
+</svg>

@@ -31,6 +31,15 @@ const baseCss = `
   table th { font-weight: 600; background: var(--bg-subtle); }
   table tr:nth-child(2n) td { background: var(--bg-subtle); }
   sub { font-size: .75em; line-height: 0; color: var(--muted); }
+  ul { margin: 0 0 16px; padding-left: 2em; }
+  li + li { margin-top: .35em; }
+  blockquote {
+    margin: 0 0 16px; padding: 0 1em; color: var(--fg);
+    border-left: .25em solid var(--border);
+  }
+  blockquote p { margin: 0 0 12px; }
+  blockquote p:last-child { margin-bottom: 0; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
   .center { text-align: center; }
   code { font-family: ui-monospace, Consolas, monospace; font-size: 85%; background: var(--bg-subtle); padding: .2em .4em; border-radius: 6px; }
 `;
@@ -68,7 +77,9 @@ function page(theme, html) {
 
 // GitHub 的 <picture> 依赖深色偏好；本地预览直接按主题改写图片源。
 for (const theme of ['light', 'dark']) {
-  const html = theme === 'dark' ? body.replace(/<img([^>]*)src="assets\/hero\.svg"([^>]*)>/, '<img$1src="assets/hero-dark.svg"$2>') : body;
+  const html = theme === 'dark'
+    ? body.replace(/assets\/([a-z0-9]+(?:-[0-9]+)?)\.svg/g, 'assets/$1-dark.svg')
+    : body;
   // 预览页放在仓库根目录，这样 assets/ 相对路径与 GitHub 上完全一致。
   writeFileSync(resolve(root, `preview-${theme}.html`), page(theme, html), 'utf8');
 }
