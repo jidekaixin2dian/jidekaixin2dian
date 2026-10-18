@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="做点用得上的东西。记得开心一点的个人作品集">
+  <rect width="600" height="210" fill="#e2dccf"/>
+  <rect x="450" width="150" height="210" fill="#dc1928"/>
+  <g fill="#2a1110" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="56" font-weight="700" letter-spacing="-1">
+    <text x="24" y="70">做点</text>
+    <text x="24" y="131">用得上的东西。</text>
+  </g>
+  <text x="26" y="185" fill="#6b524c" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="36" font-weight="500">记得开心一点</text>
+  <path d="M486 113 562 45M518 45h44v44" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text x="525" y="185" text-anchor="middle" fill="#ffffff" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="36" font-weight="600">看作品</text>
+</svg>
