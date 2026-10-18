@@ -20,8 +20,6 @@
 - **storage-analyzer**：Windows 磁盘体检，只读扫描加三级分诊。
 - **dsh-team-flow**：让 Agent Teams 的等待先结束。
 
-现在 14 个公开仓库，其中 8 个是原创，帧律拿到 10 颗星。
-
 <img src="assets/v2/method.svg" alt="做事的方式：先量再说；写清边界；做完才算数" width="100%">
 
 [作品实验室](https://jidekaixin2dian.github.io/) · [帧律](https://github.com/jidekaixin2dian/fps-tune) · [PiWeb Desk](https://github.com/jidekaixin2dian/piweb-desk) · [全部仓库](https://github.com/jidekaixin2dian?tab=repositories)
