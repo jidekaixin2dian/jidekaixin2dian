@@ -1,52 +1,29 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/poster/hero-dark.svg">
-  <img src="assets/poster/hero-light.svg" alt="记得开心一点 · 把想法做成有用的东西" width="100%">
-</picture>
+<img src="assets/v2/masthead.svg" alt="记得开心一点 · 把想法做成有用的东西" width="100%">
 
-**本机先能用，再谈好用。** Windows 的性能与空间、AI 编码会话的外壳、Agent 之间的交接 —— 都是自己每天在用的东西。
+<img src="assets/v2/shots/fps-overview.png" alt="帧律的概览页：CPU、内存、GPU 占用，以及 38 项优化的完成度" width="100%">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/section-01-dark.svg">
-  <img src="assets/marks/section-01.svg" alt="正在做" width="100%">
-</picture>
+**帧律**是给 Windows 做的系统层帧率调校台。
 
-- **01** · **[FPS 帧律](https://github.com/jidekaixin2dian/fps-tune)** — 系统层帧率调校台：先检测、再 A/B 实测，用这台机器的结果决定哪项优化值得留。  
-  <sub>└ C# · WPF · .NET 10</sub>
+先只读检测，再做 A/B 实测，用这台机器的结果决定哪项优化值得留。改之前自动备份，随时能还原。
 
-- **02** · **[PiWeb Desk](https://github.com/jidekaixin2dian/piweb-desk)** — 给 AI 编码会话一个桌面入口：完成通知、费用雷达、全局热键。  
-  <sub>└ Electron · Node.js</sub>
+<table>
+  <tr>
+    <td><img src="assets/v2/shots/fps-detect.png" alt="帧律的检测页：硬件与游戏状态，只读不修改" width="262"><br>检测：只读体检，先看清机器状态。</td>
+    <td><img src="assets/v2/shots/fps-maintenance.png" alt="帧律的维护工具页：空间与缓存、应用占用、排查与维护" width="262"><br>维护工具：空间与系统诊断。</td>
+    <td><img src="assets/v2/shots/piweb-desk.png" alt="PiWeb Desk 主界面：左侧是会话列表，右侧是对话" width="262"><br>PiWeb Desk：AI 会话的桌面壳。</td>
+  </tr>
+</table>
 
-- **03** · **[handoff](https://github.com/jidekaixin2dian/handoff)** — 换个对话，项目接着做：先核实工作区，再交清状态与证据。  
-  <sub>└ Agent Skill</sub>
+另外还在维护三个小东西：
 
-- **04** · **[storage-analyzer](https://github.com/jidekaixin2dian/storage-analyzer)** — Windows 磁盘体检：只读扫描、🟢🟡🔴 三级分诊、网页一键清理。  
-  <sub>└ Python · PowerShell</sub>
+- **handoff**：换个对话，项目接着做。
+- **storage-analyzer**：Windows 磁盘体检，只读扫描加三级分诊。
+- **dsh-team-flow**：让 Agent Teams 的等待先结束。
 
-- **05** · **[dsh-team-flow](https://github.com/jidekaixin2dian/dsh-team-flow)** — 让 Agent Teams 的等待先结束，队友继续跑。  
-  <sub>└ TypeScript · DSH 插件 · alpha</sub>
+现在 14 个公开仓库，其中 8 个是原创，帧律拿到 10 颗星。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/section-02-dark.svg">
-  <img src="assets/marks/section-02.svg" alt="做事的方式" width="100%">
-</picture>
+<img src="assets/v2/method.svg" alt="做事的方式：先量再说；写清边界；做完才算数" width="100%">
 
-> **先量，再说。** 优化有没有用，让这台机器的实测结果回答，不承诺固定的帧率提升。
->
-> **写清边界。** 哪些是我做的、哪些来自上游、哪些还没验证，都写在项目里。
->
-> **做完才算数。** 从检测、解释、确认，到执行、还原和导出报告，走完整条链路。
+[作品实验室](https://jidekaixin2dian.github.io/) · [帧律](https://github.com/jidekaixin2dian/fps-tune) · [PiWeb Desk](https://github.com/jidekaixin2dian/piweb-desk) · [全部仓库](https://github.com/jidekaixin2dian?tab=repositories)
 
-<br>
-
-<p align="center">
-  <sub>
-    <a href="https://jidekaixin2dian.github.io/">作品实验室</a>
-    ·
-    <a href="https://github.com/jidekaixin2dian?tab=repositories">全部仓库</a>
-  </sub>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/marks/footer-dark.svg">
-  <img src="assets/marks/footer.svg" alt="KEEP CURIOUS. KEEP BUILDING." width="100%">
-</picture>
+<img src="assets/v2/close.svg" alt="记得开心一点 · Keep curious. Keep building." width="100%">

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="做事的方式：先量再说；写清边界；做完才算数">
+  <rect width="1200" height="360" fill="#c8f663"/>
+  <text x="72" y="104" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="46" font-weight="700" fill="#111311">做事的方式</text>
+  <text x="72" y="180" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="30" fill="#111311">先量，再说。优化有没有用，让实测结果回答。</text>
+  <text x="72" y="242" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="30" fill="#111311">写清边界。哪些是我做的、哪些来自上游，都写下来。</text>
+  <text x="72" y="304" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="30" fill="#111311">做完才算数。从检测、解释、确认，到执行和还原。</text>
+</svg>

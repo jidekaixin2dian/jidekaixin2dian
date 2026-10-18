@@ -1,6 +1,6 @@
 // 把 GitHub 渲染好的 README HTML 套上一层近似 github-markdown 的样式，用于本地视觉检查。
 // 用法：node build/preview.mjs
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,11 +16,11 @@ const baseCss = `
     background: var(--bg); color: var(--fg);
   }
   .wrap { max-width: 880px; margin: 0 auto; }
-  .hint { font: 12px/1.5 ui-monospace, Consolas, monospace; color: var(--muted); margin-bottom: 20px; letter-spacing: .08em; text-transform: uppercase; }
+  .hint { font-size: 12px; color: var(--muted); margin-bottom: 20px; }
   img { max-width: 100%; height: auto; vertical-align: middle; }
   h3 {
     font-size: 1.5em; font-weight: 600; line-height: 1.25;
-    margin: 28px 0 16px; padding-bottom: .3em; border-bottom: 1px solid var(--border);
+    margin: 28px 0 16px;
   }
   p { margin: 0 0 16px; }
   strong { font-weight: 600; }
@@ -39,7 +39,6 @@ const baseCss = `
   }
   blockquote p { margin: 0 0 12px; }
   blockquote p:last-child { margin-bottom: 0; }
-  hr { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
   .center { text-align: center; }
   code { font-family: ui-monospace, Consolas, monospace; font-size: 85%; background: var(--bg-subtle); padding: .2em .4em; border-radius: 6px; }
 `;
@@ -69,7 +68,6 @@ function page(theme, html) {
 </style></head>
 <body>
 <div class="wrap">
-  <div class="hint">profile readme preview · ${theme}</div>
   ${html}
 </div>
 </body></html>`;
@@ -83,8 +81,12 @@ const toDarkPath = (p) => {
 };
 
 for (const theme of ['light', 'dark']) {
+  // v2 的三块色场自带底色，没有暗色变体；只有确实存在 *-dark.svg 时才改写。
   const html = theme === 'dark'
-    ? body.replace(/assets\/((?:[a-z0-9]+\/)*[a-z0-9-]+)\.svg/g, (_, p) => `assets/${toDarkPath(p)}.svg`)
+    ? body.replace(/assets\/((?:[a-z0-9]+\/)*[a-z0-9-]+)\.svg/g, (m, p) => {
+        const dark = `assets/${toDarkPath(p)}.svg`;
+        return existsSync(resolve(root, dark)) ? dark : m;
+      })
     : body;
   // 预览页放在仓库根目录，这样 assets/ 相对路径与 GitHub 上完全一致。
   writeFileSync(resolve(root, `preview-${theme}.html`), page(theme, html), 'utf8');

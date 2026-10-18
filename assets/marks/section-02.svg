@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 88" width="1200" height="88" role="img" aria-label="做事的方式">
-  <text x="0" y="44" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="34" font-weight="700" letter-spacing="1" fill="#111311">做事的方式</text>
-  <rect x="0" y="54" width="177" height="5" rx="2.5" fill="#c8f663"/>
-  <line x1="199" y1="56.5" x2="1200" y2="56.5" stroke="#111311" stroke-opacity="0.16" stroke-width="1"/>
-  <text x="1200" y="82" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="12" letter-spacing="3.2" fill="#5c5f55">METHOD</text>
-</svg>

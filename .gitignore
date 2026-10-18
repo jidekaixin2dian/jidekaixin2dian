@@ -5,3 +5,5 @@ build/body.json
 build/payload.json
 build/err.txt
 build/*.png
+build/tmp-site/
+.taste-skill/
