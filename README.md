@@ -1,27 +1,25 @@
-<img src="assets/v2/masthead.svg" alt="记得开心一点 · 把想法做成有用的东西" width="100%">
+# 记得开心一点
 
-<img src="assets/v2/shots/fps-overview.png" alt="帧律的概览页：CPU、内存、GPU 占用，以及 38 项优化的完成度" width="100%">
+做些自己用得上的工具，也给常用的开源项目补功能、修问题。
 
-**帧律**是给 Windows 做的系统层帧率调校台。
+主要折腾 Windows 和 AI Agent，想让日常用的软件更顺手一点。
 
-先只读检测，再做 A/B 实测，用这台机器的结果决定哪项优化值得留。改之前自动备份，随时能还原。
+### 做了些什么
 
-<table>
-  <tr>
-    <td><img src="assets/v2/shots/fps-detect.png" alt="帧律的检测页：硬件与游戏状态，只读不修改" width="262"><br>检测：只读体检，先看清机器状态。</td>
-    <td><img src="assets/v2/shots/fps-maintenance.png" alt="帧律的维护工具页：空间与缓存、应用占用、排查与维护" width="262"><br>维护工具：空间与系统诊断。</td>
-    <td><img src="assets/v2/shots/piweb-desk.png" alt="PiWeb Desk 主界面：左侧是会话列表，右侧是对话" width="262"><br>PiWeb Desk：AI 会话的桌面壳。</td>
-  </tr>
-</table>
+**[FPS 帧律](https://github.com/jidekaixin2dian/fps-tune)**<br>给 Windows 玩家用的系统调校工具。先检测，再调整，用 A/B 实测看看改动有没有用，支持设置备份与还原。
 
-另外还在维护三个小东西：
+**[PiWeb Desk](https://github.com/jidekaixin2dian/piweb-desk)**<br>给 Pi Web 做的 Windows 桌面壳，带任务完成通知、费用查看和全局快捷键。解压就能用。
 
-- **handoff**：换个对话，项目接着做。
-- **storage-analyzer**：Windows 磁盘体检，只读扫描加三级分诊。
-- **dsh-team-flow**：让 Agent Teams 的等待先结束。
+<details>
+<summary>还有几个小工具</summary>
 
-<img src="assets/v2/method.svg" alt="做事的方式：先量再说；写清边界；做完才算数" width="100%">
+- [handoff](https://github.com/jidekaixin2dian/handoff)：换个对话，项目接着做。
+- [上下文预算](https://github.com/jidekaixin2dian/dsh-context-budget)：管理 DSH 的 MCP 和 Skill，按需减少带进上下文的工具定义。
+- [团队插话助手](https://github.com/jidekaixin2dian/dsh-team-flow)：在 DSH 主代理等队友时插话，结束这次等待，队友继续工作。预览版。
+- [storage-analyzer](https://github.com/jidekaixin2dian/storage-analyzer)：基于卡兹克原版维护的 Windows 磁盘体检 skill，先看清空间占用，再决定怎么清理。
 
-[作品实验室](https://jidekaixin2dian.github.io/) · [帧律](https://github.com/jidekaixin2dian/fps-tune) · [PiWeb Desk](https://github.com/jidekaixin2dian/piweb-desk) · [全部仓库](https://github.com/jidekaixin2dian?tab=repositories)
+</details>
 
-<img src="assets/v2/close.svg" alt="记得开心一点 · Keep curious. Keep building." width="100%">
+用着不顺手，或者有想法，欢迎到对应仓库提 Issue。
+
+[个人网站](https://jidekaixin2dian.github.io/) · [全部仓库](https://github.com/jidekaixin2dian?tab=repositories)
