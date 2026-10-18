@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="记得开心一点 · 把想法做成有用的东西">
+  <rect width="1200" height="420" fill="#f3f4ed"/>
+  <g>
+    <line x1="60" y1="0" x2="60" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="180" y1="0" x2="180" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="420" y1="0" x2="420" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="540" y1="0" x2="540" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="660" y1="0" x2="660" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="780" y1="0" x2="780" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="840" y1="0" x2="840" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="1020" y1="0" x2="1020" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="1080" y1="0" x2="1080" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="1140" y1="0" x2="1140" y2="420" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+    <line x1="0" y1="360" x2="1200" y2="360" stroke="#111311" stroke-opacity="0.045" stroke-width="1"/>
+  </g>
+
+  <!-- 品牌标识 -->
+  <rect x="76" y="72" width="76" height="76" rx="18" fill="#c8f663"/>
+  <text x="114" y="126" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="38" font-weight="700" fill="#111311">jk.</text>
+
+  <!-- 定位说明 -->
+  <text x="180" y="100" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="15" letter-spacing="2.4" fill="#111311">WINDOWS / AI AGENT / OPEN SOURCE</text>
+  <text x="180" y="130" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="13" letter-spacing="1.4" fill="#5c5f55">github.com/jidekaixin2dian</text>
+
+  <!-- 主标题 -->
+  <text x="76" y="218" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="60" font-weight="700" letter-spacing="1" fill="#111311">记得开心一点</text>
+  <text x="76" y="266" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="26" fill="#5c5f55">把想法做成有用的东西。</text>
+
+  <!-- 签名带 -->
+  <rect x="76" y="292" width="48" height="4" rx="2" fill="#c8f663"/>
+  <text x="140" y="300" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="13.5" letter-spacing="2.2" fill="#5c5f55">MAKE IT REAL. KEEP CURIOUS.</text>
+
+  <g>
+    <rect x="712" y="88" width="412" height="248" rx="22" fill="#fbfbf6" stroke="#111311" stroke-opacity="0.12" stroke-width="1.2"/>
+    <circle cx="746" cy="120" r="4" fill="#c8f663"/>
+    <text x="760" y="125" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#5c5f55">SNAPSHOT</text>
+    <line x1="742" y1="148" x2="1096" y2="148" stroke="#111311" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="742" y="176" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#5c5f55">公开仓库</text>
+    <text x="1096" y="176" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#111311">13</text>
+    <line x1="742" y1="192" x2="1096" y2="192" stroke="#111311" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="742" y="222" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#5c5f55">原创仓库</text>
+    <text x="1096" y="222" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#111311">7</text>
+    <line x1="742" y1="238" x2="1096" y2="238" stroke="#111311" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="742" y="268" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#5c5f55">累计星标</text>
+    <text x="1096" y="268" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#111311">10</text>
+    <line x1="742" y1="284" x2="1096" y2="284" stroke="#111311" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="742" y="314" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif" font-size="16" fill="#5c5f55">上游已合入 PR</text>
+    <text x="1096" y="314" text-anchor="end" font-family="'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace" font-size="30" font-weight="700" fill="#111311">4</text>
+  </g>
+
+  <!-- 底边色带 -->
+  <rect x="0" y="412" width="1200" height="8" fill="#c8f663"/>
+</svg>

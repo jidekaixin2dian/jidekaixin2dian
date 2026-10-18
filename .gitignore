@@ -1,0 +1,7 @@
+# 本地视觉校验产物（由 build/preview.mjs 生成）
+preview-light.html
+preview-dark.html
+build/body.json
+build/payload.json
+build/err.txt
+build/*.png
