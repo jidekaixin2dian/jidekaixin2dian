@@ -22,8 +22,8 @@ const MOTTO = 'KEEP CURIOUS. KEEP BUILDING.';
 
 function svg(t) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${MOTTO}">
-  <line x1="${M}" y1="28" x2="${RIGHT}" y2="28" stroke="${t.line}" stroke-opacity="${t.lineOpacity}" stroke-width="1"/>
-  <rect x="${M}" y="25" width="26" height="6" rx="3" fill="${t.accent}"/>
+  <line x1="0" y1="28" x2="${W}" y2="28" stroke="${t.line}" stroke-opacity="${t.lineOpacity}" stroke-width="1"/>
+  <rect x="0" y="25" width="26" height="6" rx="3" fill="${t.accent}"/>
   <text x="${CENTER}" y="77" text-anchor="middle" font-family="${MONO}" font-size="15" letter-spacing="6" fill="${t.muted}">${MOTTO}</text>
 </svg>
 `;

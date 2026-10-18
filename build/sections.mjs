@@ -1,5 +1,5 @@
-// 生成正文的章节标题条：左侧绿色记号 + 中文标题 + 细线 + 右端英文小标签。
-// 亮/暗各一套，因为细线和文字颜色要跟着页面主题走。
+// 生成正文的章节标题条：标题 + 标题下的绿色横线 + 延伸到右端的细线 + 右下角英文小标签。
+// 贴左对齐（x=0），与 README 正文的左边缘一致；亮/暗各一套。
 // 用法：node build/sections.mjs
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
@@ -7,9 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const W = 1200;
-const H = 80;
-const M = 76; // 左留白，与 hero 对齐
-const RIGHT = W - M;
+const H = 88;
 
 const SANS = "'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Source Han Sans SC',sans-serif";
 const MONO = "'JetBrains Mono','Cascadia Mono','Consolas','SFMono-Regular',ui-monospace,monospace";
@@ -24,19 +22,18 @@ const sections = [
   { file: 'section-02', title: '做事的方式', label: 'METHOD', chars: 5 },
 ];
 
-// 中文全角字宽约等于字号，粗体略宽，留足余量后细线才不会压到标题。
 const TITLE_SIZE = 34;
-const TITLE_X = 104;
-const RULE_GAP = 30;
+const RULE_Y = 56.5;
 
 function svg(t, { title, label, chars }) {
-  const titleWidth = chars * TITLE_SIZE * 1.04;
-  const ruleStart = Math.round(TITLE_X + titleWidth + RULE_GAP);
+  // 中文全角字宽约等于字号，粗体略宽；这一段的长度要够绿线，不能让它压到后面的细线。
+  const titleWidth = Math.round(chars * TITLE_SIZE * 1.04);
+  const ruleStart = titleWidth + 22;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${title}">
-  <rect x="${M}" y="20" width="6" height="44" rx="3" fill="${t.accent}"/>
-  <text x="${TITLE_X}" y="56" font-family="${SANS}" font-size="${TITLE_SIZE}" font-weight="700" letter-spacing="1" fill="${t.ink}">${title}</text>
-  <line x1="${ruleStart}" y1="45" x2="${RIGHT - 108}" y2="45" stroke="${t.line}" stroke-opacity="${t.lineOpacity}" stroke-width="1"/>
-  <text x="${RIGHT}" y="50" text-anchor="end" font-family="${MONO}" font-size="12" letter-spacing="3.2" fill="${t.muted}">${label}</text>
+  <text x="0" y="44" font-family="${SANS}" font-size="${TITLE_SIZE}" font-weight="700" letter-spacing="1" fill="${t.ink}">${title}</text>
+  <rect x="0" y="54" width="${titleWidth}" height="5" rx="2.5" fill="${t.accent}"/>
+  <line x1="${ruleStart}" y1="${RULE_Y}" x2="${W}" y2="${RULE_Y}" stroke="${t.line}" stroke-opacity="${t.lineOpacity}" stroke-width="1"/>
+  <text x="${W}" y="82" text-anchor="end" font-family="${MONO}" font-size="12" letter-spacing="3.2" fill="${t.muted}">${label}</text>
 </svg>
 `;
 }
