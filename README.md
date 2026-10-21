@@ -1,4 +1,4 @@
-<a href="https://jidekaixin2dian.github.io/"><picture><source media="(max-width: 600px)" srcset="assets/profile/cover-editorial-mobile.svg"><img src="assets/profile/cover-editorial.svg" alt="做点用得上的东西。记得开心一点的个人作品集" width="100%"></picture></a>
+<a href="https://jidekaixin2dian.github.io/"><picture><source media="(max-width: 600px)" srcset="assets/profile/cover-editorial-mobile.svg?v=20261021"><img src="assets/profile/cover-editorial.svg?v=20261021" alt="做点用得上的东西。记得开心一点的个人作品集" width="100%"></picture></a>
 
 <p>我是记得开心一点，平时折腾 Windows 工具和 AI Agent。<br>遇到用着不顺手的地方，就试着改一改。做出来的小工具和开源贡献，都放在这里。</p>
 
