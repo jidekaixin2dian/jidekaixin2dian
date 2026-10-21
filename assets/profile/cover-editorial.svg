@@ -3,6 +3,6 @@
   <rect x="940" width="260" height="200" fill="#dc1928"/>
   <text x="44" y="113" fill="#2a1110" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="88" font-weight="700" letter-spacing="-2">做点用得上的东西。</text>
   <text x="48" y="178" fill="#6b524c" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="36" font-weight="500">记得开心一点</text>
-  <path d="M1025 125 1114 49M1053 49h61v61" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M1025 125 1114 49M1053 49h61v61" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="butt" stroke-linejoin="miter"/>
   <text x="1070" y="178" text-anchor="middle" fill="#ffffff" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="36" font-weight="600">看作品</text>
 </svg>
