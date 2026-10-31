@@ -1,4 +1,4 @@
-<a href="https://jidekaixin2dian.github.io/"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jidekaixin2dian/jidekaixin2dian/main/assets/profile/cover-editorial-mobile.svg?v=20261031"><img src="https://raw.githubusercontent.com/jidekaixin2dian/jidekaixin2dian/main/assets/profile/cover-editorial.svg?v=20261031" alt="把不顺手的，改顺手。记得开心一点的个人作品集" width="100%"></picture></a>
+<a href="https://jidekaixin2dian.github.io/"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jidekaixin2dian/jidekaixin2dian/5ea908f185e2f426b833a767def38feb9d6283c3/assets/profile/cover-editorial-mobile.svg"><img src="https://raw.githubusercontent.com/jidekaixin2dian/jidekaixin2dian/5ea908f185e2f426b833a767def38feb9d6283c3/assets/profile/cover-editorial.svg" alt="把不顺手的，改顺手。记得开心一点的个人作品集" width="100%"></picture></a>
 
 自己会用到的小工具，做出来也分享给你。
 
